@@ -4,7 +4,7 @@ Minitest::Reporters.use!
 
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
-
+  
   def setup
     @base_title = "Ruby on Rails Tutorial Sample App"
   end
